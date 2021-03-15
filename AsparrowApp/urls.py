@@ -6,7 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('home', views.HomePageView.as_view(template_name="index.html"))
     path("home", views.home, name= "home"),
-    path("", views.home, name= ""),
+    path("portfolio", views.portfolio, name= "portfolio"),
     path("services", views.services, name= "services"),
     path("contact", views.contact, name= "contact"),
     path("about", views.about,name = "about"),

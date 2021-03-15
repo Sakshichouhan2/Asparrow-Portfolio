@@ -1,0 +1,397 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>AsparrowTech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Bluetec Saas Software Startup Website Template" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- CSS Files
+    ================================================== -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/bootstrap-grid.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/bootstrap-reboot.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/bootstrap-reboot.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/owl.theme.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/owl.transitions.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/jquery.countdown.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/css/style.css'  %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/forms/contact.php' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/js/main.js' %}" rel="stylesheet" type="text/js">
+    <link href="{% static 'css/css/vendor/animate.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/vendor/owl-carousel' %}" rel="stylesheet" type="text/vendor">
+    <link href="{% static 'css/css/vendor/animate.css/animate.compat.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/vendor/animate.css/animate.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/vendor/animate.css/animate.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/css/vendor/appear/jquery.appear.js' %}" rel="stylesheet" type="text/JavaScript">
+    
+   
+    
+    <!-- color scheme -->
+  <link id="colors" href="{% static 'css/colors/scheme-01.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'css/coloring.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+  <!-- header begin -->
+  <header class="header-light transparent scroll-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="d-flex justify-content-between">
+            <div class="align-self-center header-col-left">
+            <!-- logo begin -->
+            <!-- logo begin -->
+            <div id="logo">
+              <a href="home">
+                <img alt="" src="{% static 'images/asparrowlogo.png' %}"  height='75' width='250'/>
+              </a>
+            </div>
+            <!-- logo close -->
+            <!-- logo close -->
+          </div>
+          <div class="align-self-center ml-auto header-col-mid">
+            <!-- mainmenu begin -->
+            <ul id="mainmenu">
+              <li>
+                <a href="home">Home</a>
+              </li>
+              <li>
+                <a href="about">About Us</a>
+              </li>
+              <li>
+                <a href="services">Services</a>
+              </li>
+              <li>
+                <a href="portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="align-self-center ml-auto header-col-right">
+            {% comment %} <a class="btn-custom" href="#"><i class="fa fa-arrow-down"></i> Buy Now</a> {% endcomment %}
+            <span id="menu-btn"></span>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header close -->
+<!-- content begin -->
+<div class="no-bottom no-top" id="content">
+  <div id="top"></div>
+            
+  <!-- section begin -->
+  <section id="subheader" data-bgimage="url(static/images/background/5.png) bottom">
+    <div class="center-y relative text-center" data-scroll-speed="4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <form action='blank.php' class="row" id='form_subscribe' method="post" name="myForm">
+              <div class="col-md-12 text-center">
+                <h1>Portfolio</h1>
+              </div>
+            </form>
+            <div class="row wesome-project-1 fix">
+          <!-- Start Portfolio -page -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu ">
+              <ul class="project-menu">
+                <li>
+                  <a href="portfolio" data-filter=".development">Development</a>
+                </li>
+                <li>
+                  <a href="portfolio" data-filter=".design">Graphics</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row awesome-project-content">
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/4.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/4.jpg' %}">
+                      <h4>Wedding Guide</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/6.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/6.jpg' %}">
+                      <h4>VREF</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/9.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/9.jpg' %}">
+                      <h4>STORYBOARDTHAT</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/11.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/11.jpg' %}">
+                      <h4>BITFEX</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/5.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/5.jpg' %}">
+                      <h4>Maji</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/6.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/6.jpg' %}">
+                      <h4>VREF</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/7.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/7.jpg' %}">
+                      <h4>RightCharge</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/8.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/8.jpg' %}">
+                      <h4>Angelium</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/9.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/9.jpg' %}">
+                      <h4>StoryboardThat</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="{% static 'images/portfolio/11.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/11.jpg' %}">
+                      <h4>BITFEX</h4>
+                      <span>Web Development</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+<!-- content close -->
+<!-- footer begin -->
+<footer class="footer-light text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="widget">
+          <a href="home"><img alt="" class="logo" src="{% static 'images/asparrowlogo.png' %}"  height='72' width='250'></a>
+          <div class="spacer-20"></div>
+          <p>313,314 / 3rd floor onam plaza, <br>Indore, 452018,<br> Madhya Pradesh,India</p>
+        </div>
+      </div>
+      <div class="col-lg-2 text-dark" >
+        <div class="widget">
+          <h5>QUICK LINKS</h5>
+          <ul>
+            <li><a  class= "text-dark" href="home">Home</a></li>
+            <li><a  class= "text-dark" href="about">About Us</a></li>
+            <li><a  class= "text-dark" href="services">Our Services</a></li>
+            <li><a  class= "text-dark" href="contact">Contact</a></li>
+            <li><a  class= "text-dark" href="career">Career</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="widget">
+          <h5>ABOUT US</h5>
+          <ul>
+            <li><a  class= "text-dark" href="services">Tech And Projects</a></li>
+            <li><a  class= "text-dark" href="portfolio">Portfolio</a></li>
+            <li><a  class= "text-dark" href="services">Business</a></li>
+            <li><a  class= "text-dark" href="contact">Connect</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="widget">
+          <h5>CONTACT</h5>
+          <ul>
+            <li><i class="fa fa-envelope"></i>
+              <a  class= "text-dark" href="mailto:info@asparrowtech.com">info@asparrowtech.com</a></li>
+              <li><li><i class="fa fa-envelope"></i>
+                <a class= "text-dark" href="mailto:hr.asparrowtech@gmail.com">hr.asparrowtech@gmail.com</a></li>
+                <li><i class="fa fa-mobile text-dark"></i><span>+91-7999531240, +91-7471158313</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 sm-text-center mb-sm-30">
+            <div class="mt10 text-dark">&copy; 2020 - AsparrowTech. All rights reserved</div>
+          </div>
+          <div class="col-md-6 text-md-right text-sm-left">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/asparrowtech/"><i class="fa fa-facebook fa-lg"></i></a>
+              <a href="https://in.linkedin.com/company/a-sparrow-tech"><i class="fa fa-linkedin fa-lg"></i></a>
+              <a href="mailto:info@asparrowtech.com"><i class="fa fa-google-plus fa-lg"></i></a>
+              {% comment %} <a href="#"><i class="fa fa-rss fa-lg"></i></a> {% endcomment %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer close -->
+    <div id="preloader">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+  </div>    
+        <!-- Javascript Files
+    ================================================== -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/jquery.isotope.min.js' %}"></script>
+    <script src="{% static 'js/easing.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.js' %}"></script>
+    <script src="{% static 'js/validation.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/enquire.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/jquery.plugin.js' %}"></script>
+    <script src="{% static 'js/typed.js' %}"></script>
+    <script src="{% static 'js/jquery.countTo.js' %}"></script>
+    <script src="{% static 'js/jquery.countdown.js' %}"></script>
+    <script src="{% static 'js/designesia.js' %}"></script>
+
+
+</body>
+
+</html>

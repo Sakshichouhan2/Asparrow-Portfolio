@@ -47,4 +47,7 @@ def about(request):
     return render(request, "about-us.html", {})
 
 def career(request):
-    return render(request, "careers.html",{})
+    return render(request, "careers.html", {})
+
+def portfolio(request):
+    return render(request, "portfolio.html", {})

@@ -5,3 +5,7 @@ class Enqiury(models.Model):
     email = models.EmailField()
     phone = models.IntegerField(null=True)
     message = models.TextField(max_length= 1000)
+
+
+#class Portfolio(models.Model):
+
