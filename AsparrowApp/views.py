@@ -51,3 +51,10 @@ def career(request):
 
 def portfolio(request):
     return render(request, "portfolio.html", {})
+
+def graphic(request):
+    return render(request, "graphic.html", {})
+
+def logo(request):
+    return render(request, "logo.html", {})
+    

@@ -10,5 +10,7 @@ urlpatterns = [
     path("services", views.services, name= "services"),
     path("contact", views.contact, name= "contact"),
     path("about", views.about,name = "about"),
-    path("career", views.career, name= "career")
+    path("career", views.career, name= "career"),
+    path("graphic", views.graphic, name= "graphic"),
+    path("logo", views.logo, name="logo")
 ]

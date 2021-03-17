@@ -35,7 +35,9 @@
     <link href="{% static 'css/css/vendor/animate.css/animate.compat.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'css/css/vendor/animate.css/animate.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'css/css/vendor/animate.css/animate.min.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'css/css/vendor/appear/jquery.appear.js' %}" rel="stylesheet" type="text/JavaScript">
+    <link href="{% static 'css/css/vendor/appear/jquery.appear.js' %}" rel="stylesheet">
+    <link href="{% static 'css/css/vendor/venobox/venobox.css' %}" rel="stylesheet">
+  
     
    
     
@@ -48,7 +50,7 @@
 <body>
   <div id="wrapper">
   <!-- header begin -->
-  <header class="header-light transparent scroll-light">
+  <header class="header-light transparent scroll-light" style="position: fixed; background-color: white;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -78,6 +80,9 @@
               </li>
               <li>
                 <a href="portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="career">Career</a>
               </li>
               <li>
                 <a href="contact">Contact</a>
@@ -119,10 +124,10 @@
                   <a href="portfolio" data-filter=".development"><b>Web Development</b></a>
                 </li>
                 <li>
-                  <a href="portfolio" data-filter=".design"><b>Graphic Design</b></a>
+                  <a href="graphic" data-filter=".development"><b>Graphic Design</b></a>
                 </li>
                 <li>
-                  <a href="portfolio" data-filter=".design"><b>Logo Design</b></a>
+                  <a href="logo" data-filter=".development"><b>Logo Design</b></a>
                 </li>
               </ul>
             </div>
@@ -134,13 +139,64 @@
           <div class="col-md-4 col-sm-4 col-xs-12 photo development">
             <div class="single-awesome-project">
               <div class="awesome-img">
+                <a href=""><img src="{% static 'images/portfolio/1.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-filter="design" href="{% static 'images/portfolio/1.jpg' %}">
+                      <h4>AsparrowTech</h4>
+                      <span>
+                      <a href=""></a></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href=""><img src="{% static 'images/portfolio/2.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/2.jpg' %}">
+                      <h4>AsparrowTech</h4>
+                      <span>
+                      <a href=""></a></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href=""><img src="{% static 'images/portfolio/3.jpg' %}" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/3.jpg' %}">
+                      <h4>AsparrowTech</h4>
+                      <span>
+                      <a href=""></a></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
                 <a href="https://www.perfectweddingguide.com"><img src="{% static 'images/portfolio/4.jpg' %}" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/4.jpg' %}">
                       <h4>Perfect Wedding Guide</h4>
                       <span>
-                      <a href="https://www.perfectweddingguide.com">Web Development</a></span>
+                      <a href="https://www.perfectweddingguide.com">Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -157,7 +213,7 @@
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/6.jpg' %}">
                       <h4>VREF</h4>
                       <span><a href="https://www.vrefonline.com/">
-                        Web Development</a></span>
+                        Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -175,7 +231,7 @@
                       <h4>STORYBOARDTHAT</h4>
                       <span>
                         <a href="https://www.storyboardthat.com/">
-                          Web Development</a></span>
+                          Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -192,7 +248,7 @@
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/11.jpg' %}">
                       <h4>BITFEX</h4>
                       <span><a href="https://www.bitfex.com/">
-                        Web Development</a></span>
+                        Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -209,7 +265,7 @@
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/5.jpg' %}">
                       <h4>Maji</h4>
                       <span><a href="https://maji.io/">
-                        Web Development</a></span>
+                        Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -226,7 +282,7 @@
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/7.jpg' %}">
                       <h4>RightCharge</h4>
-                      <span><a href="https://rightcharge.co.uk/">Web Development</a></span>
+                      <span><a href="https://rightcharge.co.uk/">Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -243,7 +299,7 @@
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/8.jpg' %}">
                       <h4>Angelium</h4>
-                      <span><a href="https://www.angelium.net/">Web Development</a></span>
+                      <span><a href="https://www.angelium.net/">Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -260,7 +316,7 @@
                   <div class="project-dec">
                     <a class="venobox" data-gall="myGallery" href="{% static 'images/portfolio/12.png' %}">
                       <h4>VI</h4>
-                      <span><a href="https://www.myvi.in/">Web Development</a></span>
+                      <span><a href="https://www.myvi.in/">Website Link</a></span>
                     </a>
                   </div>
                 </div>
@@ -304,7 +360,7 @@
           <h5>ABOUT US</h5>
           <ul>
             <li><a  class= "text-dark" href="services">Tech And Projects</a></li>
-            <li><a  class= "text-dark" href="portfolio">Portfolio</a></li>
+            <li><a  class= "text-dark" href="portfolio.html">Portfolio</a></li>
             <li><a  class= "text-dark" href="services">Business</a></li>
             <li><a  class= "text-dark" href="contact">Connect</a></li>
           </ul>
